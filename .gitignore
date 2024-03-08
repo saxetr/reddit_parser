@@ -1,5 +1,9 @@
 praw.ini
 
 .idea/
+.vscode/
 tmp/
 .venv*
+
+__pycache__
+.pytest_cache
