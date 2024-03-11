@@ -39,4 +39,4 @@ def test__get_top_redditors__when_redditors_less_than_requested_top():
     redditors = ['red', 'ditor']
 
     with pytest.raises(ValueError):
-        top = get_top_redditors(3, redditors)
+        get_top_redditors(3, redditors)
